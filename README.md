@@ -9,5 +9,12 @@ git branch -D branch_name
   (or)
   git push origin :branch_name
 
+- to list tags:
+git tag
 
+
+- to delete tag locally remotely:
+git tag -d your_tag_name
+- to delete tag remotely:
+git push origin --delete your_tag_name
 
